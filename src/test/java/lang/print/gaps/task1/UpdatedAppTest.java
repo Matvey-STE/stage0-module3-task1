@@ -12,6 +12,6 @@ class UpdatedAppTest extends BaseIOTest {
     void mainUpdated() {
         UpdatedApp.main(null);
 
-        assertEquals("I'm updated\ncan be compiled. And can write to console\n", updateLineSpliterators(outContent.toString()));
+        assertEquals("I'm updated\ncan be compiled. And can write to console", updateLineSpliterators(outContent.toString()));
     }
 }

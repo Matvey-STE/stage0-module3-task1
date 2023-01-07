@@ -10,6 +10,6 @@ class BrokenAppTest extends BaseIOTest {
     void main(){
         BrokenApp.main(null);
 
-        assertEquals("fixMe\n", updateLineSpliterators(outContent.toString()));
+        assertEquals("fixMe", updateLineSpliterators(outContent.toString()));
     }
 }
