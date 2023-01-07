@@ -11,6 +11,6 @@ class PrintWordsAppTest extends BaseIOTest {
     void mainPrintsLine() {
         PrintWordsApp.main(null);
 
-        assertEquals("java\nis\nsmth", updateLineSpliterators(outContent.toString()));
+        assertEquals("java\nis\nsmth\n", updateLineSpliterators(outContent.toString()));
     }
 }

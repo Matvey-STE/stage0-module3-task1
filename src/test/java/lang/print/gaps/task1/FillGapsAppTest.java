@@ -11,6 +11,6 @@ class FillGapsAppTest extends BaseIOTest {
     void mainFixed() {
         FillGapsApp.main(null);
 
-        assertEquals("Fixed", updateLineSpliterators(outContent.toString()));
+        assertEquals("Fixed\n", updateLineSpliterators(outContent.toString()));
     }
 }
